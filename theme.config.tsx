@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
         <circle cx="166" cy="120" r="40" fill="currentColor"/>
       </svg>
       <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-        Prompt Engineering Guide
+        promptly.ink
       </span>
     </>
   ),
@@ -25,13 +25,13 @@ const config: DocsThemeConfig = {
     const { title } = useConfig()
     return (
     <>
-      <title>{title ? title + ' | Prompt Engineering Guide': 'Prompt Engineering Guide'} </title>
+      <title>{'promptly.ink' + ' | Prompt Engineering and AI Prompt Guide'} </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Prompt Engineering Guide" />
+      <meta property="og:title" content="Prompt Engineering and AI Prompt Guide" />
       <meta property="og:description" content="A Comprehensive Overview of Prompt Engineering" />
       <meta
           name="og:title"
-          content={title ? title + ' | Prompt Engineering Guide' : 'Prompt Engineering Guide'}
+          content={'promptly.ink' + ' | AI Prompt Guide'}
         />
       <link rel="icon" href="/144-favicon.svg" type="image/svg+xml" />
 
@@ -43,16 +43,16 @@ const config: DocsThemeConfig = {
         />
     </>
   )},
-  project: {
-    link: 'https://github.com/dair-ai/Prompt-Engineering-Guide',
-  },
-  chat: {
-    link: 'https://discord.gg/SKgkVT8BGJ',
-  },
-  docsRepositoryBase: 'https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main/',
-  footer: {
-    text: 'Copyright © 2023 DAIR.AI',
-  },
+  // project: {
+  //   link: 'https://github.com/dair-ai/Prompt-Engineering-Guide',
+  // },
+  // chat: {
+  //   link: 'https://discord.gg/SKgkVT8BGJ',
+  // },
+  // docsRepositoryBase: 'https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main/',
+  // footer: {
+  //   text: 'Copyright © 2023 DAIR.AI',
+  // },
 }
 
 export default config
