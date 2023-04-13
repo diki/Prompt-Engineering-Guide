@@ -5,3 +5,5 @@ a[href="/about"] {
 a[href="/course"] {
   display: none;
 }
+
+pre { white-space: pre-wrap; }
