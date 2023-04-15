@@ -27,7 +27,7 @@ const config: DocsThemeConfig = {
     return (
       <>
         <title>
-          {"promptly.ink" + " | Prompt Engineering and AI Prompt Guide"}{" "}
+        {title ? title + ' | promptly.ink ': 'promptly.ink | Prompt Engineering and AI Prompt Guide'}
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
