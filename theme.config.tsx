@@ -70,6 +70,7 @@ const config: DocsThemeConfig = {
       </>
     );
   },
+<<<<<<< HEAD
   // project: {
   //   link: 'https://github.com/dair-ai/Prompt-Engineering-Guide',
   // },
@@ -81,5 +82,15 @@ const config: DocsThemeConfig = {
   //   text: 'Copyright © 2023 DAIR.AI',
   // },
 };
+=======
+  chat: {
+    link: 'https://discord.gg/FUyz9vPAwf',
+  },
+  docsRepositoryBase: 'https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main/',
+  footer: {
+    text: 'Copyright © 2023 DAIR.AI',
+  },
+}
+>>>>>>> ee3f6b33d2e8fd66817b9acd3ebeab8e418e5f98
 
 export default config;

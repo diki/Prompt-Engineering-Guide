@@ -9,5 +9,21 @@
   "tools": "Tools",
   "notebooks": "Notebooks",
   "datasets": "Datasets",
+<<<<<<< HEAD
   "readings": "Additional Readings"
+=======
+  "readings": "Additional Readings",
+  "course":{
+    "title": "Prompt Engineering Course",
+    "type": "page"
+  },
+  "services": {
+    "title": "Services",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  }
+>>>>>>> ee3f6b33d2e8fd66817b9acd3ebeab8e418e5f98
 }
